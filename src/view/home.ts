@@ -10,9 +10,9 @@ div.innerHTML = `
             <button>Empezar</button>
         </div>
         <div class="imagenes">
-            <img src="public/img/tijera.svg" alt="tijera" class="image scissors">
-            <img src="public/img/piedra.svg" alt="piedra" class="image rock">
-            <img src="public/img/papel.svg" alt="papel" class="image paper">
+            <img src="./public/img/tijera.svg" alt="tijera" class="image scissors">
+            <img src="./public/img/piedra.svg" alt="piedra" class="image rock">
+            <img src="./public/img/papel.svg" alt="papel" class="image paper">
         </div>
     `;
 
