@@ -23,7 +23,7 @@ div.innerHTML = `
     <div class="backgroundColor"></div>
 
     <div class="container">
-        <img src="public/img/${resultado}.svg" alt="${resultado}">
+        <img src="./public/img/${resultado}.svg" alt="${resultado}">
         <div class="score">
             <p>Score</p>
             <p>Jugador: ${playerScore}</p>
