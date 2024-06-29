@@ -16,9 +16,9 @@ const state = {
     player: { playedOption: "", score: 0 },
     machine: { playedOption: "", score: 0 },
     playedImg: {
-      piedra: "public/img/piedra.svg",
-      papel: "public/img/papel.svg",
-      tijera: "public/img/tijera.svg",
+      piedra: "./public/img/piedra-grande.svg",
+      papel: "./public/img/papel-grande.svg",
+      tijera: "./public/img/tijera-grande.svg",
     },
     runGame: true,
   },
@@ -58,9 +58,9 @@ const state = {
       player: { playedOption: "", score: 0 },
       machine: { playedOption: "", score: 0 },
       playedImg: {
-        piedra: "public/img/piedra.svg",
-        papel: "public/img/papel.svg",
-        tijera: "public/img/tijera.svg",
+        piedra: "./public/img/piedra-grande.svg",
+        papel: "./public/img/papel-grande.svg",
+        tijera: "./public/img/tijera-grande.svg",
       },
       runGame: true,
     };
