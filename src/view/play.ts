@@ -16,17 +16,17 @@ function runGame() {
     div.classList.add("background");
     div.innerHTML = `
         <div class="content">
-            <img src="public/img/count.svg" alt="3s Remaining">
+            <img src="./public/img/count.svg" alt="3s Remaining">
         </div>
         <div class="imagenes">
             <button>
-                <img src="public/img/tijera-grande.svg" alt="tijera" class="image scissors">
+                <img src="./public/img/tijera-grande.svg" alt="tijera" class="image scissors">
             </button>
             <button>
-                <img src="public/img/piedra-grande.svg" alt="piedra" class="image rock">
+                <img src="./public/img/piedra-grande.svg" alt="piedra" class="image rock">
             </button>
             <button>
-                <img src="public/img/papel-grande.svg" alt="papel" class="image paper">
+                <img src="./public/img/papel-grande.svg" alt="papel" class="image paper">
             </button>
         </div>
     `;
@@ -56,7 +56,7 @@ function runGame() {
 
     setTimeout(() => {
     div.querySelector(`.content`)!.innerHTML = `
-        <img src="public/img/count2.svg" alt="2s Remaining">
+        <img src="./public/img/count2.svg" alt="2s Remaining">
     `;
     }, 1500);
 
