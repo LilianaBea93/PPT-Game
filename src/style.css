@@ -27,7 +27,7 @@ body {
   height: 100vh;
 }
 .background {
-  background-image: url("public/img/fondo.svg");
+  background-image: url("./public/img/fondo.svg");
   background-size: contain;
   background-position: center;
   background-repeat: repeat;
@@ -162,19 +162,19 @@ button {
   height: 50vh;
 }
 .piedra {
-    background-image: url("public/img/piedra.svg");
+    background-image: url("./public/img/piedra.svg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 .papel {
-    background-image: url("public/img/papel.svg");
+    background-image: url("./public/img/papel.svg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 .tijera {
-    background-image: url("public/img/tijera.svg");
+    background-image: url("./public/img/tijera.svg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
